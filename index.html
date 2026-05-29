@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow">
-	<meta name="google-site-verification" content="V-4dxndyI820tJCvphAmdVtyU6Rczggvy_vP5vGRnYc" />
+	<!-- <meta name="google-site-verification" content="V-4dxndyI820tJCvphAmdVtyU6Rczggvy_vP5vGRnYc" /> -->
   <meta id="meta-desc" name="description"
-    content="Open Source Hardware Workshop @ CoRL 2025">
-  <meta id="meta-author" name="author" content="Yoneda Keita">
-  <meta property="og:url"           content="https://open-hardware-robots.github.io/CoRL2025/" />
+    content="Designing the Human-Robot Boundary @ CoRL 2026">
+  <meta id="meta-author" name="author" content="Yoshiki Obinata">
+  <meta property="og:url"           content="https://human-robot-boundary.github.io/CoRL2026/" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="Open-Source Hardware in the Era of Robot Learning" />
-  <meta property="og:image" content="https://open-hardware-robots.github.io/CoRL2025/assets/images/workshop_banner.png" />
+  <meta property="og:title"         content="Designing the Human-Robot Boundary: From Human Guidance to Robot Autonomy in Real-World Deployment" />
+  <!-- <meta property="og:image" content="" /> -->
   <title id="title"></title>
 
   <link href="./assets/css/fonts.css" rel="stylesheet">
@@ -91,16 +91,16 @@
                 <!--     <span>Call for Papers</span> -->
                 <!--   </a> -->
                 <!-- </span> -->
-                
-                <!-- Speakers. -->
-                <span class="link-block">
+
+                <!-- Speakers. (to be announced) -->
+                <!-- <span class="link-block">
                   <a href="#speakers" class="external-link button is-normal is-rounded is-warning">
                     <span class="icon">
                       <i class="fas fa-users icon"></i>
                     </span>
                     <span>Speakers</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- Organizers. -->
                 <span class="link-block">
@@ -112,15 +112,15 @@
                   </a>
                 </span>
 
-                <!-- Recording. -->
-                <span class="link-block">
+                <!-- Schedule. (to be announced) -->
+                <!-- <span class="link-block">
                   <a href="#schedule" class="external-link button is-normal is-rounded is-link" style="box-shadow: 0px 0px 5px 0px lightgrey">
                     <span class="icon">
                       <i class="fas fa-calendar-alt"></i>
                     </span>
                     <span>Schedule</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- Contact Link. -->
                 <span class="link-block">
@@ -132,15 +132,15 @@
                   </a>
                 </span>
 
-                <!-- Recording. -->
-                <span class="link-block">
+                <!-- Video. (not available yet) -->
+                <!-- <span class="link-block">
                   <a href="#livestream" class="external-link button is-danger is-rounded is-link" style="box-shadow: 0px 0px 5px 0px lightgrey">
                     <span class="icon">
                       <i class="fa fa-video"></i>
                     </span>
                     <span>Video</span>
                   </a>
-                </span>
+                </span> -->
 
               </div>
             </div>
@@ -150,20 +150,17 @@
     </div>
   </section>
 
+  <!-- Banner image (to be updated)
   <section class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-				<figure>
-					<img src="./assets/images/workshop_banner.png" width="900px" height="600px">
-					<figcaption>Some open source robots we will discuss at this workshop. From top to bottom and left to right:
-						<br> MEVIUS quadruped, Berkeley humanoid / humanoid Lite, Open Duck Mini biped, SigmaBan humanoid,
-						<br> KLEIYN quadruped, Duke humanoid, SO-101 arm, LEAP hand, 
-						<br> Reachy 2 humanoid, Sciurus17 humanoid, Solo quadruped, ToddlerBot humanoid, Upkie wheeled biped
-					</figcaption>
-				</figure>
+        <figure>
+          <img src="./assets/images/workshop_banner.png" width="900px" height="600px">
+        </figure>
       </div>
     </div>
   </section>
+  -->
 
   <section class="section">
     <div class="container is-max-desktop">
@@ -173,19 +170,16 @@
           <h2 class="title is-3">Overview</h2>
           <div class="content has-text-justified">
             <p>
-							The field of robot learning is experiencing remarkable advances driven by reinforcement learning, imitation learning, and the emergence of foundation models. Alongside the growing momentum of open-source software development in these areas, we are now witnessing an increasing number of open-source robotic hardware platforms being shared with the community—from quadrupeds to dual-arm manipulators and humanoids.
-							This workshop aims to bring together researchers and developers who are actively involved in the design, development, and dissemination of open-source robotic hardware. The central goal is to foster an open, collaborative community where knowledge and experiences around hardware and its integration with robot learning can be shared across groups.
-	We will structure the discussion around the following key questions and topics:
-							<ui>
-								<li>What kinds of actuators, sensors, and hardware designs are currently being used in open-source robot platforms?</li>
-								<li>What are the best practices for integrating open-source hardware with modern robot learning frameworks?</li>
-								<li>How should licensing and intellectual property considerations be handled in open-source hardware projects?</li>
-								<li>Which simulators and software environments are most compatible and useful for learning-oriented robotics research?</li>
-								<li>How can hardware developers communicate capabilities and limitations effectively to the learning community?</li>
-								<li>Are there sustainable models for monetization or community support in open-source hardware development?</li>
-							</ui>
-							This workshop will benefit the robot learning community by lowering the barrier to entry for experimenting with real-world robotics and by promoting the sharing of physical platforms in the same way open-source software has accelerated algorithmic innovation. The intended audience includes researchers and practitioners working on robot learning, robotics hardware development, open-source projects, and simulation environments. Presenters and panelists will be drawn from communities involved in open-source robot hardware development, reinforcement learning, imitation learning, foundation model-based control, and robotics systems integration.
-	By building bridges between hardware developers and the robot learning community, this workshop seeks to catalyze new collaborations and accelerate innovation in embodied AI.
+              Robot learning is rapidly changing how robots acquire and execute skills, but it is also reshaping the role of humans in robotic systems. While recent advances have enabled robots to learn from demonstrations, large-scale datasets, simulation, and foundation models, reliable deployment in real-world environments remains difficult. Learned policies still face distribution shifts, ambiguous task specifications, limited failure recovery, and safety-critical edge cases. As a result, humans remain deeply involved throughout the robot learning lifecycle, including task definition, simulation and data configuration, teleoperation and demonstration collection, runtime supervision, failure intervention, and policy debugging.
+            </p>
+            <p>
+              This workshop will examine the evolving boundary between human guidance and robot autonomy in the current and emerging era of robot learning. Rather than viewing human intervention only as a limitation to be eliminated, we ask how human input should be represented, collected, interpreted, and integrated into learning-enabled robotic systems. This question is increasingly important as the people involved in robot deployment expand beyond expert roboticists to include system integrators, operators, domain experts, and end users.
+            </p>
+            <p>
+              The workshop will discuss problem formulations, technical components, interfaces, and evaluation methods for reliable human-in-the-loop robot learning. Topics of interest include task specification by non-expert users, learning from teleoperation and interventions, shared and adjustable autonomy, simulation and data-generation workflows, policy debugging, failure recovery, user-facing robot interfaces, and metrics for reliability, safety, workload, and trust. Through these discussions, the workshop aims to clarify where autonomy should end, where human guidance should enter, and how future robot learning systems should be designed around this boundary.
+            </p>
+            <p>
+              This workshop expects participation from researchers and developers involved in Robot Learning, robot task planning, simulators, visualization tools, and UI/UX development for robotic products. By integrating diverse expertise in robotics, simulators, computer graphics, UI/UX, and web design, this workshop aims to reconsider, from a top-down UI perspective, the research challenges that future robotics should address.
             </p>
           </div>
         </div>
@@ -194,23 +188,23 @@
     </div>
   </section>
 
+  <!-- Speakers section (to be announced)
   <section id="speakers" class="section">
-    <!-- Speakers. -->
     <div class="container is-max-desktop">
       <h2 class="center title is-3">Speakers</h2>
       <div id="talk-content1" class="columns is-centered"></div>
       <div id="talk-content2" class="columns is-centered"></div>
-      <!--/ Speakers. -->
+    </div>
   </section>
+  -->
 
+  <!-- Schedule section (to be announced)
   <section id="schedule" class="section">
     <div class="container is-max-desktop">
-      <!-- Schedule. -->
       <div class="columns is-centered has-text-centered">
         <div class="column">
           <h2 class="title is-3">Schedule</h2>
           <div class="content center has-text-justified">
-            <!-- <div class="has-text-danger bold"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;Specific details will be coming soon. Thanks for your patience.</div><br> -->
             <div class="table-container">
               <table id="schedule-table" class="table">
                 <tbody id="schedule-table-body">
@@ -218,23 +212,23 @@
             </div>
           </div>
         </div>
-        <!--/ Schedule. -->
       </div>
+    </div>
   </section>
+  -->
 
-	 <section id="livestream" class="section">
+  <!-- Video Archive section (not available yet)
+  <section id="livestream" class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
           <h2 class="title is-3">Video Archive</h2>
           <p class="subtitle">We will stream the workshop live on YouTube. You can watch it below or directly on YouTube.</p>
-          
-          <!-- YouTube embed -->
           <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
-            <iframe src="https://www.youtube.com/embed/ZVPIJzF1df4" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen 
+            <iframe src="https://www.youtube.com/embed/ZVPIJzF1df4"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
             </iframe>
           </div>
@@ -246,136 +240,56 @@
         </div>
       </div>
     </div>
-	</section>
+  </section>
+  -->
 
-	<section id="group-photo" class="section">
-		<div class="container is-max-desktop">
-			<div class="columns is-centered has-text-centered">
-				<div class="column">
-					<h2 class="title is-3">Group Photo</h2>
-					<figure>
-						<img src="./assets/images/group_photo.jpg" alt="Workshop Group Photo" style="max-width:100%; height:auto;">
-						<figcaption>Participants of the Open-Source Hardware Workshop @ CoRL 2025</figcaption>
-					</figure>
-				</div>
-			</div>
-		</div>
-	</section>
+  <!-- Group Photo section (not available yet)
+  <section id="group-photo" class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Group Photo</h2>
+          <figure>
+            <img src="./assets/images/group_photo.jpg" alt="Workshop Group Photo" style="max-width:100%; height:auto;">
+            <figcaption>Participants of the Designing the Human-Robot Boundary Workshop @ CoRL 2026</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
 
+  <!-- Awards section (to be announced)
   <section id="awards" class="section">
-		<div class="container is-max-desktop">
-			<div class="columns is-centered has-text-centered">
-				<div class="column">
-					<h2 class="title is-3">Awards</h2>
-					<div class="content has-text-justified">
-						<ul>
-							<li>
-								<b class="red">Best Poster Award 1</b><br>
-								<i>Very High Frequency Interpolation for Direct Torque Control</i><br>
-								Rafael Kourdis, Maciej Stępień, Jérôme Manhes, Nicolas Mansard, Steve Tonneau, Philippe Souères, Thomas Flayols
-							</li>
-							<li>
-								<b class="red">Best Poster Award 2</b><br>
-								<i>An Open-Source Platform for Dexterous Robotic Surgical Manipulation and Learning</i><br>
-								Jacinto Colan, Ana Davila, Yutaro Yamada, Yasuhisa Hasegawa
-							</li>
-							<li>
-								<b class="red">Best Open-Source Hardware Award</b><br>
-								<i>RL-based Giant Swing Motions on the Open-Source Robot MEVITA</i><br>
-								Ayumu Iwata, Kento Kawaharazuka, Keita Yoneda, Kei OKADA
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Awards</h2>
+          <div class="content has-text-justified">
+            <ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
 
+  <!-- Accepted Papers section (to be announced)
   <section id="papers" class="section">
     <div class="container is-max-desktop">
-      <!-- Accepted Papers. -->
       <div class="columns is-centered has-text-centered">
         <div class="column">
           <h2 class="title is-3">Accepted Papers</h2>
           <div class="content has-text-justified">
             <ul>
-              <li>
-                <b>Switch4EAI: Leveraging Console Game Platform for Benchmarking Robotic Athletics</b> 
-                <p>Tianyu Li, Jeonghwan Kim, Wontaek Kim, DONGHOON BAEK, Seungeun Rho, Sehoon Ha</p>
-              </li>
-              <li>
-                <b>RL-based Giant Swing Motions on the Open-Source Robot MEVITA</b> 
-                <p>Ayumu Iwata, Kento Kawaharazuka, Keita Yoneda, Kei OKADA</p>
-              </li>
-              <li>
-                <b>Sanity: An Agile Brushless Quadrotor for Multi-Agent Experiments</b> 
-                <p>Heedo Woo, Kazi Ragib Ishraq Sanim, Keisuke Okumura, Guang Yang, Ajay Shankar, Amanda</p>
-              </li>
-              <li>
-                <b>SwimGym: A Robotics Platform for Bio-Inspired Swimming Research</b> 
-                <p>Junzhe Hu, Jeong Hun Lee, Sofia Kwok, Guo Ning Sue, Carmel Majidi, Zachary Manchester</p>
-              </li>
-              <li>
-                <b>Safe Robot Learning in Contact-Rich Manipulation via A Low-Cost Soft Gripper and Haptic Feedback Teleoperation</b> 
-                <p>Steven Oh, Tomoya Takahashi, Cristian Camilo Beltran-Hernandez, Yuki Kuroda, Masashi Hamaya</p>
-              </li>
-              <li>
-                <b>KLEIYN: A Quadruped Robot Evolved from the Open-Source MEVIUS, Equipped with a Active Waist for Chimney Climbing</b> 
-                <p>Keita Yoneda, Kento Kawaharazuka, Temma Suzuki, Takahiro Hattori, Kei OKADA</p>
-              </li>
-              <li>
-                <b>SOBIT LIGHT: An Accessible Open MoMa for data collection</b> 
-                <p>Keith Valentin Cardenas, Jiahao Sim, Yoshinobu Hagiwara, Yongwoon Choi</p>
-              </li>
-              <li>
-                <b>Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion Capture</b> 
-                <p>Rohan Pratap Singh, Pierre-Alexandre Leziart, Masaki Murooka, Mitsuharu Morisawa, Eiichi Yoshida, Fumio Kanehiro</p>
-              </li>
-              <li>
-                <b>RoboManipBaselines: A Unified Framework for Imitation Learning in Robotic Manipulation across Real and Simulated Environments</b> 
-                <p>Masaki Murooka, Tomohiro Motoda, Ryoichi Nakajo, Hanbit Oh, Koshi Makihara, Keisuke Shirai, Yukiyasu Domae</p>
-              </li>
-              <li>
-                <b>An Open-Source Platform for Dexterous Robotic Surgical Manipulation and Learning</b> 
-                <p>Jacinto Colan, Ana Davila, Yutaro Yamada, Yasuhisa Hasegawa</p>
-              </li>
-              <li>
-                <b>The GrandTour of Boxi</b> 
-                <p>Turcan Tuna, Jonas Frey, Lanke Frank Tarimo Fu, Maurice Fallon, Cesar Cadena, Marco Hutter</p>
-              </li>
-              <li>
-                <b>CRS: An Open-Source, Low-Cost, and Modular Platform for Robot Learning Research</b> 
-                <p>Lukas Vogel, Marcus Aaltonen, Sabrina Bodmer, Rahel Rickenbach, Hao Ma, Michael Muehlebach, Melanie Zeilinger, Andrea Carron
-</p>
-              </li>
-              <li>
-                <b>Deep Reinforcement Learning Controller for a Furuta Pendulum</b> 
-                <p>Maciej Stępień</p>
-              </li>
-              <li>
-                <b>Very High Frequency Interpolation for Direct Torque Control</b> 
-                <p>Rafael Kourdis, Maciej Stępień, Jérôme Manhes, Nicolas Mansard, Steve Tonneau, Philippe Souères, Thomas Flayols</p>
-              </li>
-              <li>
-                <b>Universal Low-Cost Force-Controlled Gripper for Learning Delicate Object Grasping</b> 
-                <p>Xuhui Kang, Tongxuan Tian, Sung-Wook Lee, Yen-Ling Kuo</p>
-              </li>
-              <li>
-                <b>Mini TurtleBot: An Open-Source, Low-Cost, and Customizable Platform for Mobile Robotics Learning
-</b> 
-                <p>Hasan Shamim Shaon, Lucky Sah, Cecilia Tirkey, Bhanu Teja Giddaluru, Xiangxu Lin, Jong-Hoon Kim</p>
-              </li>
-              <li>
-                <b>KAMI (Robot Head): An Open Source HRI Platform for Social Interaction and Embodied AI</b> 
-                <p>Irvin Steve Cardenas, John Edward Naulty, George Digkas, Kostas Kryptos Chalkias, Jong-Hoon Kim</p>
-              </li>
             </ul>
           </div>
         </div>
       </div>
-      <!--/ Accepted Papers. -->
     </div>
   </section>
+  -->
 
 	<section class="section">
   <div class="container is-max-desktop">
@@ -388,12 +302,14 @@
           </summary>
           <div class="content has-text-justified" style="margin-top: 1em;">
             <p>
-              <li><b>Open-source robotic hardware design and development</b></li>
-              <li><b>Reinforcement Learning / Imitation Learning for controlling physical robot</b></li>
-              <li><b>Integration of open-source hardware with robot learning frameworks</b></li>
-              <li><b>Automatic robotic data generation and large-scale data collection framework for learning</b></li>
-              <li><b>Robot systems including hardware and sensors for learning and data-driven approaches</b></li>
-              <li><b>Learning and optimization for hardware design</b></li>
+              <li><b>Task specification and instruction interfaces for non-expert users</b></li>
+              <li><b>Learning from teleoperation, demonstrations, and human interventions</b></li>
+              <li><b>Shared autonomy and adjustable autonomy frameworks</b></li>
+              <li><b>Simulation and data-generation workflows for human-in-the-loop robot learning</b></li>
+              <li><b>Policy debugging, failure detection, and recovery mechanisms</b></li>
+              <li><b>User-facing robot interfaces and Human-Robot UI design</b></li>
+              <li><b>Metrics for reliability, safety, operator workload, and trust</b></li>
+              <li><b>Foundation models for robot task planning with human oversight</b></li>
             </p>
           </div>
         </details>
@@ -412,29 +328,18 @@
 							Click to expand
 						</summary>
 						<div class="content has-text-justified">
-							<p> We are seeking original research papers focused on open-source robotic hardware and its applications. </p>
+							<p> We are seeking original research papers focused on the human-robot boundary in robot learning and real-world deployment. </p>
 
 							<p><b>Types of Submissions:</b></p>
 								<ul>
-									<li>Short Papers / Extended Abstracts (up to 2 pages excluding references) 
+									<li>Short Papers / Extended Abstracts (up to 2 pages excluding references)
 									</li>
 								</ul>
 
 							<p><b>Submission Details:</b></p>
 							<ul>
 								<li>
-									Papers should be submitted via 
-									<a href="https://openreview.net/group?id=robot-learning.org/CoRL/2025/Workshop/Open_Hardware" target="_blank">OpenReview</a>.
-
-								<!-- <div class="notice-box"> -->
-								<!-- 	⚠ <strong>Note on OpenReview profiles:</strong><br> -->
-								<!-- 	When submitting for the first time, authors must create an OpenReview profile.<br> -->
-								<!-- 	<ul> -->
-								<!-- 		<li><strong>Profiles created <em>without</em> an institutional email</strong> will go through a moderation process that can take up to <strong>two weeks</strong>.</li> -->
-								<!-- 		<li><strong>Profiles created <em>with</em> an institutional email</strong> will be activated automatically.</li> -->
-								<!-- 	</ul> -->
-								<!-- 	Please register early to avoid delays in submission. -->
-								<!-- </div> -->
+									Papers will be submitted via OpenReview (link to be announced).
 								</li>
 								<li>Videos and other external materials can be submitted with papers.</li>
 								<li>Papers are non-archival – we welcome submissions that have been submitted to or accepted by other venues.</li>
@@ -445,11 +350,10 @@
 
 							<p><b>Important Dates:</b></p>
 							<ul>
-								<li>Submission Deadline: <s>August 27, 2025</s> </li>
-								<li>Notification of Acceptance: <s>September 11, 2025</s> </li>
-								<li>Final Camera-Ready Submission: <s>September 22, 2025 </s> </li>
+								<li>Submission Deadline: TBD</li>
+								<li>Notification of Acceptance: TBD</li>
+								<li>Final Camera-Ready Submission: TBD</li>
 							</ul>
-							</p>
 						</div>
 					</details>
 				</div>
@@ -457,43 +361,32 @@
 		</div>
 	</section>
 
-	<section id="location" class="section">
+  <!-- Workshop Location section (to be announced)
+  <section id="location" class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
           <h2 class="title is-3">Workshop Location</h2>
-						<div>
-							<p class="subtitle">The workshop will be held at <b><span class="has-text-danger">Room 402, 4F</span>, COEX, Seoul, Korea</b>.</p>
-							<figure class="image is-4by3 location-map">
-								<img src="./assets/images/map.png" alt="Workshop Location Map">
-							</figure>
-						</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="sponsors" class="section">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column">
-          <h2 class="title is-3">Sponsors</h2>
-          <div class="columns is-centered">
-            <div class="column is-half">
-              <a href="https://huggingface.co/" target="_blank">
-                <img src="./assets/images/sponsors/hugging_face.png" alt="Hugging Face" style="height:80px;">
-              </a>
-            </div>
-            <div class="column is-half">
-              <a href="https://robot-soccer-kit.github.io/" target="_blank">
-                <img src="./assets/images/sponsors/rsk.png" alt="RSK" style="height:80px;">
-              </a>
-            </div>
+          <div>
+            <p class="subtitle">The workshop will be held at <b>TBD</b>.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
+  -->
+
+  <!-- Sponsors section (to be announced)
+  <section id="sponsors" class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Sponsors</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  -->
 
   <section id="organizers" class="section">
     <!-- Organizers. -->
@@ -513,11 +406,11 @@
           <h2 class="title is-3">Contact</h2>
           <div class="content center has-text-justified">
             Please feel free to reach out via email for any inquiries:
+						<a href="mailto:obinata@jsk.imi.i.u-tokyo.ac.jp">
+							obinata@jsk.imi.i.u-tokyo.ac.jp
+						</a> &
 						<a href="mailto:kawaharazuka@jsk.imi.i.u-tokyo.ac.jp">
 							kawaharazuka@jsk.imi.i.u-tokyo.ac.jp
-						</a> & 
-						<a href="mailto:kawaharazuka@jsk.imi.i.u-tokyo.ac.jp">
-							stephane.caron@inria.fr
 						</a>
           </div>
         </div>
